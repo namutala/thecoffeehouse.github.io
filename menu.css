@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:black;
+  }
+  
+  .menu {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color:black;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .menu h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .menu-item {
+    margin-bottom: 30px;
+  }
+  
+  .menu-item h2 {
+    margin-bottom: 10px;
+    color: #666;
+  }
+  
+  .menu-item ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .menu-item ul li {
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  .menu-item ul li:before {
+    content: "•";
+    color: #999;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
+  
+  .menu-item ul li:nth-child(odd) {
+    font-style: italic;
+  }
+  
+  .appetizers {
+    background-color: #f7dfaf; /* Light yellow */
+  }
+  
+  .main-courses {
+    background-color: #a5d6a7; /* Light green */
+  }
+  
+  .desserts {
+    background-color: #f48fb1; /* Light pink */
+  }
+
+   /* footer section */
+
+   footer{
+    background-color:black;
+    /* margin-top: 50px; */
+    /* height: 400px; */
+  }
+  .footer-menu{
+    display: flex;
+    padding: 20px;
+    color: white;
+    margin-left: 150px;
+  }
+  
+
+  .base{
+    flex-basis: 25%;
+    width: 160px; 
+  }
+  .base h1{
+    color: white;
+  }
+  .footer-menu h1{
+    font-size: 20px;
+    padding: 10px 0;
+    text-align: left;
+     
+  }
+  .footer-menu li{
+    text-align: left;
+    list-style: none;
+    padding-bottom: 10px;
+    color: antiquewhite;
+    text-decoration: none;
+  }
+  .footer-menu li a{
+    text-decoration: none;
+    color: white;
+  }
+  .footer-menu li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+color: #563434;
+  }
+  .base span{
+    display: flex;
+    
+  }
+  .base span p{
+    padding-right: 10px;
+  }
+

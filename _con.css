@@ -1,0 +1,72 @@
+main{
+    background-color: black;
+}
+body{
+    background-color: black;
+}
+.contact-form {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.map {
+    flex: 1;
+}
+
+/* Form Styles */
+form {
+    max-width: 400px;
+    margin: auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    /* font-weight: bold; */
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: none;
+}
+
+button[type="submit"] {
+    background-color:whitesmoke;
+    color: yellowgreen;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #555;
+}
+
+/* Map Styles */
+.map {
+    /* position: relative; */
+    /* overflow: hidden; */
+    border-radius: 10px;
+}
+
+.map iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+.form{
+    display: flex;
+}

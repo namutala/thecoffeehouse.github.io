@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial sans-serif;
+    background-color: black;
+}
+.container{
+    height: 80vh;
+    width: 100%;
+    background-image: url(img/slide/calugar-ana-maria-BHeueUanvrU-unsplash.jpg);
+
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+
+}
+.container img{
+  height: 399;
+  width: 100%;
+}
+.content{
+    align-content: center;
+    padding: 20px;
+color: white;
+margin-left: 44%;
+
+}
+
+
+
+.whie{
+    text-align: center;
+    color: gray;
+    font-size: 20px;
+    ;
+
+}
+
+
+/* Five image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width:20%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .know{
+    color: gray;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .arabica{
+    color: gray;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: whitesmoke;
+
+  }
+
+ 
+
+

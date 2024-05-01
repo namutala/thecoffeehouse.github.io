@@ -1,0 +1,108 @@
+body, html {
+    height: 100%;
+  }
+  body{
+    background-color:black;
+  }
+   .bg-image {
+    /* The image used */
+    background-image: url("img/slide/WhatsApp\ Image\ 2024-04-28\ at\ 12.32.08.jpeg");
+  
+    /* Add the blur effect */
+    filter: blur(40%);
+    -webkit-filter: blur(4px);
+  
+    /* Full height */
+    height: 50%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Position text in the middle of the page/image */
+  .bg-text {
+    background-color: rgb(0,0,0);/*fallback color*/
+    background-color: rgb(0,0,0,0.4);/*black w/opacity/see-through*/
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .whie{
+    text-align: center;
+    color: grey;
+    font-weight: 400;
+    font-size: 30px;
+
+
+  }
+  .menu{
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: bold;
+    font-size: 40;
+    color: grey;
+  }
+
+   /* footer section */
+
+   footer{
+    background-color:black;
+    /* margin-top: 50px; */
+    /* height: 400px; */
+  }
+  .footer-menu{
+    display: flex;
+    padding: 20px;
+    color: white;
+    margin-left: 150px;
+  }
+  
+
+  .base{
+    flex-basis: 25%;
+    width: 160px; 
+  }
+  .base h1{
+    color: white;
+  }
+  .footer-menu h1{
+    font-size: 20px;
+    padding: 10px 0;
+    text-align: left;
+     
+  }
+  .footer-menu li{
+    text-align: left;
+    list-style: none;
+    padding-bottom: 10px;
+    color: antiquewhite;
+    text-decoration: none;
+  }
+  .footer-menu li a{
+    text-decoration: none;
+    color: white;
+  }
+  .footer-menu li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+color: #563434;
+  }
+  .base span{
+    display: flex;
+    
+  }
+  .base span p{
+    padding-right: 10px;
+  }
+  
